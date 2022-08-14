@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-export const Footer = () => {
-  return (
-    <div>Footer</div>
-  )
-}
+export const Footer = () => (
+  <div className="text-center p-10 mt-10 border-t border-gray-200 ">
+    © 2021 Google, Inc.
+  </div>
+);

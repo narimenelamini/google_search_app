@@ -12,8 +12,10 @@ function App() {
       <div className=" bg-gray-100  min-h-full">App</div>
       
         <Navbar />
-        <Footer />
         <Routes />
+        <Footer />
+        
+       
 
     </div>
   );

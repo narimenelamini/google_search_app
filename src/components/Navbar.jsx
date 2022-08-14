@@ -14,7 +14,7 @@ export const Navbar = () => {
             </Link>
           
         </div>
-        
+        <Search />
     </div>
   )
 }
