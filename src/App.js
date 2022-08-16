@@ -1,11 +1,11 @@
 import './App.css';
-import React , {useState} from 'react';
+import React  from 'react';
 import {Navbar} from './components/Navbar'
 import {Footer} from './components/Footer'
 import {Routes} from './components/Routes'
 
 function App() {
-  const [darkTheme,setDarkTheme ] = useState(false);
+
   return (
     <div >
      
