@@ -8,7 +8,7 @@ export const ResultContextProvider = ({ children }) => {
        
        const [results, setResults] = useState([]);
        const [isLoading, setIsLoding] = useState(false);
-       const [searchTerm , setSearchTerm] = useState('');
+       const [searchTerm , setSearchTerm] = useState('Javascript');
         
        const getResults = async(type) => {
              setIsLoding(true);
